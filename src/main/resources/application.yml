@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: news-analyzer-api
+
+newsapi:
+  base-url: ${NEWS_API_BASE_URL:https://newsapi.org/v2}
+  api-key: ${NEWS_API_KEY}
